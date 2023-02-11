@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+
+}
+body{
+    background-color: antiquewhite;
+}
+.bigContainer{
+    margin:20px;
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    background-color: azure;
+}
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    padding:5px;
+    margin-bottom: 5px;
+    margin-top:6px;
+    
+}
+
+#textArea{
+    margin:0px;
+    place-items: left;
+    /* display:inline; */
+
+}
+#btn{
+    margin:5px;
+    display: inline;
+    padding:3px;
+
+
+}
+#box{
+    display:grid;
+
+}
+
+/* #box{
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+
+}
+#main{
+
+}
+.btn{
+    justify-content: center;
+    align-items:center;
+} */
+.todo{
+    background-color: aqua;
+    padding:5px;
+    margin:auto;
+    cursor: pointer;
+    padding:3px;
+    margin:0px 3px;
+
+
+}
+.completed{
+    background-color: burlywood;
+
+
+} 
